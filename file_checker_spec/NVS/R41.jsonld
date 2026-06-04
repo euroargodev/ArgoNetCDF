@@ -33,19 +33,22 @@
         },
         {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100033/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100033/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100033/2/"
+            },
             "dce:identifier": "SDN:R41::R4100033",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100033",
-            "skos:altLabel": "Argo eq. IRELAND",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo eq IRELAND",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. IRELAND"
+                "@value": "Argo eq IRELAND"
             },
             "dc:identifier": "SDN:R41::R4100033",
             "skos:note": {
@@ -466,51 +469,23 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
-                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/1/"
-            },
-            "dce:identifier": "SDN:R41::R4100061",
-            "pav:version": "1",
-            "skos:notation": "SDN:R41::R4100061",
-            "skos:altLabel": "Argo UK",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
-            "skos:prefLabel": {
-                "@language": "en",
-                "@value": "Argo UK"
-            },
-            "dc:identifier": "SDN:R41::R4100061",
-            "skos:note": {
-                "@language": "en",
-                "@value": "accepted"
-            },
-            "owl:deprecated": "false",
-            "void:inDataset": {
-                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
-            },
-            "skos:definition": {
-                "@language": "en",
-                "@value": "UK Argo program led by NOC."
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100003/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100003/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100003/2/"
+            },
             "dce:identifier": "SDN:R41::R4100003",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100003",
-            "skos:altLabel": "Argo eq. AUSTRALIA",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo eq AUSTRALIA",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. AUSTRALIA"
+                "@value": "Argo eq AUSTRALIA"
             },
             "dc:identifier": "SDN:R41::R4100003",
             "skos:note": {
@@ -622,19 +597,22 @@
         },
         {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100026/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100026/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100026/2/"
+            },
             "dce:identifier": "SDN:R41::R4100026",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100026",
-            "skos:altLabel": "Argo eq. UHH",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo UHH",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. UHH"
+                "@value": "Argo UHH"
             },
             "dc:identifier": "SDN:R41::R4100026",
             "skos:note": {
@@ -647,7 +625,7 @@
             },
             "skos:definition": {
                 "@language": "en",
-                "@value": "Equivalent Argo program led by IFM."
+                "@value": "Argo program led by IFM."
             },
             "@type": "skos:Concept"
         },
@@ -715,19 +693,22 @@
         },
         {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100013/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100013/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100013/2/"
+            },
             "dce:identifier": "SDN:R41::R4100013",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100013",
-            "skos:altLabel": "Argo eq. CHINA",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo eq CHINA",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. CHINA"
+                "@value": "Argo eq CHINA"
             },
             "dc:identifier": "SDN:R41::R4100013",
             "skos:note": {
@@ -808,19 +789,22 @@
         },
         {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100063/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100063/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100063/2/"
+            },
             "dce:identifier": "SDN:R41::R4100063",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100063",
-            "skos:altLabel": "Argo eq. UK",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo eq UK",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. UK"
+                "@value": "Argo eq UK"
             },
             "dc:identifier": "SDN:R41::R4100063",
             "skos:note": {
@@ -1303,51 +1287,23 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
-                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/1/"
-            },
-            "dce:identifier": "SDN:R41::R4100053",
-            "pav:version": "1",
-            "skos:notation": "SDN:R41::R4100053",
-            "skos:altLabel": "Argo ROMANIA",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
-            "skos:prefLabel": {
-                "@language": "en",
-                "@value": "Argo ROMANIA"
-            },
-            "dc:identifier": "SDN:R41::R4100053",
-            "skos:note": {
-                "@language": "en",
-                "@value": "accepted"
-            },
-            "owl:deprecated": "false",
-            "void:inDataset": {
-                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
-            },
-            "skos:definition": {
-                "@language": "en",
-                "@value": "Romanian Argo program led by GEOECOMAR."
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100022/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100022/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100022/2/"
+            },
             "dce:identifier": "SDN:R41::R4100022",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100022",
-            "skos:altLabel": "Argo eq. FRANCE",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo eq FRANCE",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. FRANCE"
+                "@value": "Argo eq FRANCE"
             },
             "dc:identifier": "SDN:R41::R4100022",
             "skos:note": {
@@ -1799,6 +1755,40 @@
             "@type": "skos:Concept"
         },
         {
+            "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/",
+            "pav:hasVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/1/"
+            },
+            "pav:authoredOn": "2026-04-30 15:43:48.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/2/"
+            },
+            "dce:identifier": "SDN:R41::R4100061",
+            "pav:version": "2",
+            "skos:notation": "SDN:R41::R4100061",
+            "skos:altLabel": "Argo UK",
+            "dc:date": "2026-04-30 15:43:48.0",
+            "owl:versionInfo": "2",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Argo UK"
+            },
+            "dc:identifier": "SDN:R41::R4100061",
+            "skos:note": {
+                "@language": "en",
+                "@value": "accepted"
+            },
+            "owl:deprecated": "false",
+            "void:inDataset": {
+                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
+            },
+            "skos:definition": {
+                "@language": "en",
+                "@value": "UK Argo program led by Met Office."
+            },
+            "@type": "skos:Concept"
+        },
+        {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100012/",
             "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100012/1/"
@@ -1896,19 +1886,22 @@
         },
         {
             "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100009/",
-            "pav:authoredOn": "2026-03-19 11:04:26.0",
-            "pav:hasCurrentVersion": {
+            "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100009/1/"
             },
+            "pav:authoredOn": "2026-04-29 13:56:19.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100009/2/"
+            },
             "dce:identifier": "SDN:R41::R4100009",
-            "pav:version": "1",
+            "pav:version": "2",
             "skos:notation": "SDN:R41::R4100009",
-            "skos:altLabel": "Argo eq. CANADA",
-            "dc:date": "2026-03-19 11:04:26.0",
-            "owl:versionInfo": "1",
+            "skos:altLabel": "Argo eq CANADA",
+            "dc:date": "2026-04-29 13:56:19.0",
+            "owl:versionInfo": "2",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Argo eq. CANADA"
+                "@value": "Argo eq CANADA"
             },
             "dc:identifier": "SDN:R41::R4100009",
             "skos:note": {
@@ -2015,6 +2008,40 @@
             "skos:definition": {
                 "@language": "en",
                 "@value": "Spanish Argo program led by IEO and operated by SOCIB."
+            },
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/",
+            "pav:hasVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/1/"
+            },
+            "pav:authoredOn": "2026-04-29 13:06:42.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/2/"
+            },
+            "dce:identifier": "SDN:R41::R4100053",
+            "pav:version": "2",
+            "skos:notation": "SDN:R41::R4100053",
+            "skos:altLabel": "",
+            "dc:date": "2026-04-29 13:06:42.0",
+            "owl:versionInfo": "2",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Concept created in error"
+            },
+            "dc:identifier": "SDN:R41::R4100053",
+            "skos:note": {
+                "@language": "en",
+                "@value": "deprecated"
+            },
+            "owl:deprecated": "true",
+            "void:inDataset": {
+                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
+            },
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Concept created in error"
             },
             "@type": "skos:Concept"
         },
@@ -2256,9 +2283,6 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100028/"
                 },
                 {
-                    "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/"
-                },
-                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100003/"
                 },
                 {
@@ -2337,9 +2361,6 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100032/"
                 },
                 {
-                    "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/"
-                },
-                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100022/"
                 },
                 {
@@ -2385,6 +2406,9 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100016/"
                 },
                 {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100061/"
+                },
+                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100012/"
                 },
                 {
@@ -2404,6 +2428,9 @@
                 },
                 {
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100057/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100053/"
                 },
                 {
                     "@id": "http://vocab.nerc.ac.uk/collection/R41/current/R4100030/"
@@ -2429,8 +2456,8 @@
             "dc:description": "List of Argo floats managed under the same lead agency. A program is bound to one country, one or several agencies with defined roles, and has contact points with defined roles. The same agency can implement multiple programs. Some cases such as EuroArgo (European Research Infrastructure Consortium) use a multinational agency and \"Europe\" as country. Argo netCDF variable PROGRAM_NAME is populated by R41 prefLabel.",
             "dc:title": "Argo program name",
             "skos:prefLabel": "Argo program name",
-            "owl:versionInfo": "3",
-            "dc:date": "2026-04-10 03:00:01.0",
+            "owl:versionInfo": "5",
+            "dc:date": "2026-05-01 03:00:00.0",
             "skos:altLabel": "PROGRAM_NAME",
             "dc:creator": "GOOS/OceanOPS Vocabulary Governance",
             "dc:alternative": "PROGRAM_NAME",
