@@ -15,7 +15,7 @@ pré-requis:
     <version>x.y.z</version>
     ```
 
-3. Créer un dépôt local puis
+3. Créer un dépôt local de cette branche gitlab puis
     - Depuis /file_checker_exec : execution des test "end-to-end" internes `mvn verify`.
     - Depuis /file_checker_exec : Génerer l'executable *.jar `mvn clean package`
 
