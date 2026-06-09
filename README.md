@@ -17,9 +17,9 @@ Vocabularies and format changes are managed on [Argo Vocabs Task Team - AVTT Git
 - file_checker_spec folder containing all specifications and reference tables.
 - source code
 
-## Run Argo NetCDF file format checker
+## I - Run Argo NetCDF file format checker
 
-### Using file_checker_exec-{version}.jar :
+### I.1 - Using file_checker_exec-{version}.jar :
 
 ```bash
 java -jar file_checker_exec-{version}.jar $OPTION $DAC_NAME $SPEC $OUTPUT_DIR $INPUT_DIR [$FILES_NAMES]
@@ -27,7 +27,7 @@ java -jar file_checker_exec-{version}.jar $OPTION $DAC_NAME $SPEC $OUTPUT_DIR $I
 
 $FILES_NAMES is a list of file's name from the INPUT_DIR. It is optional : without it, all files from INPUT_DIR will be checked.
 
-### Run the application using Docker
+### I.2 - Run the application using Docker
 
 ```bash
 docker run --rm -v [ABSOLUTE_PATH_TO_DATA_FOLDER]:/app/data -v [ABSOLUTE_PATH_TO_OUTPUT_DIR]:/app/results ghcr.io/oneargo/argoformatchecker/app:{TAG} [$OPTIONS] $DAC_NAME ./file_checker_spec ./results ./data [$FILES_NAMES]
@@ -53,7 +53,7 @@ Example :
 docker run --rm -v D:\test_file_checker\datatest:/app/data -v D:\test_file_checker\results:/app/results ghcr.io/oneargo/argoformatchecker/app:develop  -no-name-check coriolis ./file_checker_spec ./results ./data
 ```
 
-### Run the application using Docker Compose
+### I.3 - Run the application using Docker Compose
 
 To facilitate the use of Argo file checker a compose.yaml and .env files are provided :
 
@@ -89,7 +89,7 @@ FILECHECKER_OPTIONS=
 FILES_NAMES=
 ```
 
-### Run the application on demonstration files
+### I.4 - Run the application on demonstration files
 
 Demonstration data are availables to run the application locally easily.
 
@@ -113,27 +113,27 @@ or for Windows :
 
 output files will be generated in `./demo/outputs`.
 
-### Run File checker using Python and an API
+### I.5 - Run File checker using Python and an API
 
 In folder /file-checker-python you will find a python wrapper and an API to facilitate the use of Argo FileChecker. See [python.README](./python.README.md) for more informations.
 
-### Test data
+### I.6 - Test data
 
 To further test the Argo File Checker, you will find argo data here : https://www.argodatamgt.org/DataAccess.html
 
 The Argo File Checker is not yet designed to checking *prof.nc and *Sprof.nc. It checks only TRAJ, META, TECH and PROFILES files.
 
-## Run File checker using Python and an API
+## II - Run File checker using Python and an API
 
 In folder /argo-file-checker-python you will find a python wrapper and an API to facilitate the use of Argo FileChecker.
 
-## TOOLS
+## III - TOOLS
 
-### Maven Wrapper
+### III.1 - Maven Wrapper
 
 Thanks to the wrapper, Maven is embedded in the project (in a defined version). No need to install Maven on your development workstation, just use the wrapper script included in the project.
 
-## Getting Started
+## IV - Getting Started
 
 - Clone the repository :
 
@@ -141,7 +141,7 @@ Thanks to the wrapper, Maven is embedded in the project (in a defined version). 
 git clone https://github.com/OneArgo/ArgoFormatChecker.git
 ```
 
-### building jar
+### IV.1 - building jar
 
 - Build the application with maven (will requiert Java jdk installed), in file_checker_exec folder :
 
@@ -152,7 +152,7 @@ cd file_checker_exec
 
 In target folder you will find both original-file_checker_exec and file_checker_exec-[version]. It is this last one to use.
 
-### build docker image
+### IV.2 - build docker image
 
 - Build the application with Docker :
 
@@ -160,10 +160,14 @@ In target folder you will find both original-file_checker_exec and file_checker_
 docker build -t filechecker_2.8.14 .
 ```
 
-### Run integration tests
+### IV.3 - Run integration tests
 
 The source code comes with some netcdf test files. You can run the integration tests with this following command :
 
 ```bash
 ./mvnw verify
 ```
+
+## V - Making a new release
+
+The new release procedure is kept internal to Ifremer within Release_procedure.md (not pushed to GitHub)
