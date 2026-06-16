@@ -169,6 +169,34 @@
             "@type": "skos:Concept"
         },
         {
+            "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0291/",
+            "pav:authoredOn": "2026-06-11 09:21:52.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0291/1/"
+            },
+            "dce:identifier": "SDN:R40::PI0291",
+            "pav:version": "1",
+            "skos:notation": "SDN:R40::PI0291",
+            "skos:altLabel": "Xavier COUVELARD",
+            "dc:date": "2026-06-11 09:21:52.0",
+            "owl:versionInfo": "1",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Xavier COUVELARD"
+            },
+            "dc:identifier": "SDN:R40::PI0291",
+            "skos:note": {
+                "@language": "en",
+                "@value": "accepted"
+            },
+            "owl:deprecated": "false",
+            "void:inDataset": {
+                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
+            },
+            "skos:definition": "",
+            "@type": "skos:Concept"
+        },
+        {
             "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0176/",
             "pav:authoredOn": "2023-06-22 12:58:04.0",
             "pav:hasCurrentVersion": {
@@ -5731,6 +5759,34 @@
             "@type": "skos:Concept"
         },
         {
+            "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0290/",
+            "pav:authoredOn": "2026-06-02 09:28:32.0",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0290/1/"
+            },
+            "dce:identifier": "SDN:R40::PI0290",
+            "pav:version": "1",
+            "skos:notation": "SDN:R40::PI0290",
+            "skos:altLabel": "Alexandre BARBONI",
+            "dc:date": "2026-06-02 09:28:32.0",
+            "owl:versionInfo": "1",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Alexandre BARBONI"
+            },
+            "dc:identifier": "SDN:R40::PI0290",
+            "skos:note": {
+                "@language": "en",
+                "@value": "accepted"
+            },
+            "owl:deprecated": "false",
+            "void:inDataset": {
+                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
+            },
+            "skos:definition": "",
+            "@type": "skos:Concept"
+        },
+        {
             "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0232/",
             "pav:authoredOn": "2024-04-25 11:42:03.0",
             "pav:hasCurrentVersion": {
@@ -8147,6 +8203,9 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0006/"
                 },
                 {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0291/"
+                },
+                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0176/"
                 },
                 {
@@ -8741,6 +8800,9 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0116/"
                 },
                 {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0290/"
+                },
+                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R40/current/PI0232/"
                 },
                 {
@@ -9001,8 +9063,8 @@
             "dc:description": "List of Principal Investigator (PI) names in charge of Argo floats. Argo netCDF variable PI_NAME is populated by R40 altLabel.",
             "dc:title": "Argo Principal Investigator (PI) names",
             "skos:prefLabel": "Argo Principal Investigator (PI) names",
-            "owl:versionInfo": "12",
-            "dc:date": "2026-05-20 03:00:01.0",
+            "owl:versionInfo": "14",
+            "dc:date": "2026-06-12 03:00:01.0",
             "skos:altLabel": "PI_NAME",
             "dc:creator": "Argo Data Management Team",
             "dc:alternative": "PI_NAME",

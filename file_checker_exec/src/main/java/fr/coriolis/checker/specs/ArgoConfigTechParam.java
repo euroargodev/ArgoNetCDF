@@ -242,14 +242,18 @@ public class ArgoConfigTechParam {
 		// ..multiple matches - which indicates ambiguous regex patterns
 		// ..So, FOR NOW, complete the looping and report multiple matches
 		// ..Returns the LAST one matched
+		
+		int imatch=0;
 
 		for (Map.Entry<Pattern, HashMap<String, HashSet<String>>> entry : regexSet.entrySet()) {
 			Pattern pattern = entry.getKey();
 			HashMap<String, HashSet<String>> value = entry.getValue();
 
 			Matcher m = pattern.matcher(name);
+			log.debug("checkRegex: enter for loop for '{}' for pattern '{}'",name,pattern.toString());
 
 			if (m.matches()) {
+				imatch=imatch+1;
 				unMatchedTemplates = new HashMap<String, String>(m.groupCount());
 				failedMatchedTemplates = new HashMap<String, String>(m.groupCount());
 
@@ -271,10 +275,10 @@ public class ArgoConfigTechParam {
 
 								if (!matchSet.contains(str)) {
 									failedMatchedTemplates.put(key, str);
-									log.debug("checkRegex: match-list success: key '{}', matched '{}'", key, str);
+									log.debug("checkRegex: match-list failed: key '{}', matched '{}'", key, str);
 
 								} else if (log.isDebugEnabled()) {
-									log.debug("checkRegex: match-list failed: key '{}', matched '{}'", key, str);
+									log.debug("checkRegex: match-list success: key '{}', matched '{}'", key, str);
 								}
 							}
 						} else {
@@ -284,15 +288,23 @@ public class ArgoConfigTechParam {
 					} catch (IllegalArgumentException e) {
 					}
 				}
+				log.debug("checkRegex: exit for loop");
 
 				match = new ArgoConfigTechParamMatch(pattern.toString(), false, unMatchedTemplates.size(),
 						unMatchedTemplates, failedMatchedTemplates.size(), failedMatchedTemplates);
 
-				log.debug("checkRegex: '{}' regex match #{}: '{}', unMatchedTemplates {}" + "failedTemplates {}",
-						unMatchedTemplates.size(), failedMatchedTemplates.size());
+				log.debug("checkRegexMatch: '{}' regex match #{}: '{}', unMatchedTemplates: {}, failedMatchedTemplates: {}",
+						name,imatch,pattern.toString(),unMatchedTemplates.size(), failedMatchedTemplates.size());
+						
+				// Exit the loop as soon as a valid match is found:
+				if (failedMatchedTemplates.size()==0 && unMatchedTemplates.size()==0) {
+					break;
+				}
+				
 
 				// ****temporary**** return match;
 			}
+			
 		}
 
 		return match;

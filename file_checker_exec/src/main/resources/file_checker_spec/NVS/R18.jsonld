@@ -9893,48 +9893,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/",
-            "pav:hasVersion": [
-                {
-                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/2/"
-                },
-                {
-                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/1/"
-                },
-                {
-                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/3/"
-                }
-            ],
-            "@type": "skos:Concept",
-            "skos:definition": {
-                "@language": "en",
-                "@value": "Never used on the GDAC. In case of grounding during the descent to profile depth phase, this parameter (PM18 in float user manual) defines the thickness of a new deep zone (from profile start pressure) for the purpose of data reduction. The thickness of the slices is 1 dbar in this zone. Should be set to 0 to disable this function. Template_Values:{unit:[bar, dbar, cbar, mbar, inHg]}."
-            },
-            "void:inDataset": {
-                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
-            },
-            "owl:deprecated": "true",
-            "skos:note": {
-                "@language": "en",
-                "@value": "deprecated"
-            },
-            "dc:identifier": "SDN:R18::CC00062",
-            "skos:prefLabel": {
-                "@language": "en",
-                "@value": "CONFIG_GroundingModeDeepZoneThickness_dbar"
-            },
-            "owl:versionInfo": "4",
-            "dc:date": "2026-03-09 09:11:25.0",
-            "skos:altLabel": "Core Config 62",
-            "skos:notation": "SDN:R18::CC00062",
-            "pav:version": "4",
-            "dce:identifier": "SDN:R18::CC00062",
-            "pav:hasCurrentVersion": {
-                "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/4/"
-            },
-            "pav:authoredOn": "2026-03-09 09:11:25.0"
-        },
-        {
             "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00116/",
             "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00116/1/"
@@ -11581,6 +11539,51 @@
             "@type": "skos:Concept"
         },
         {
+            "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/",
+            "pav:hasVersion": [
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/2/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/3/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/4/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/1/"
+                }
+            ],
+            "@type": "skos:Concept",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "In case of grounding during the descent to profile depth phase, this parameter (PM18 in float user manual) defines the thickness of a new deep zone (from profile start pressure) for the purpose of data reduction. The thickness of the slices is 1 dbar in this zone. Should be set to 0 to disable this function. Template_Values:{unit:[bar, dbar, cbar, mbar, inHg]}."
+            },
+            "void:inDataset": {
+                "@id": "http://vocab.nerc.ac.uk/.well-known/void"
+            },
+            "owl:deprecated": "false",
+            "skos:note": {
+                "@language": "en",
+                "@value": "accepted"
+            },
+            "dc:identifier": "SDN:R18::CC00062",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "CONFIG_GroundingModeDeepZoneThickness_dbar"
+            },
+            "owl:versionInfo": "5",
+            "dc:date": "2026-05-15 10:00:35.0",
+            "skos:altLabel": "Core Config 62",
+            "skos:notation": "SDN:R18::CC00062",
+            "pav:version": "5",
+            "dce:identifier": "SDN:R18::CC00062",
+            "pav:hasCurrentVersion": {
+                "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/5/"
+            },
+            "pav:authoredOn": "2026-05-15 10:00:35.0"
+        },
+        {
             "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00204/",
             "pav:hasVersion": {
                 "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00204/1/"
@@ -12867,9 +12870,6 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00135/"
                 },
                 {
-                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/"
-                },
-                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00116/"
                 },
                 {
@@ -13005,6 +13005,9 @@
                     "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00141/"
                 },
                 {
+                    "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00062/"
+                },
+                {
                     "@id": "http://vocab.nerc.ac.uk/collection/R18/current/CC00204/"
                 },
                 {
@@ -13049,8 +13052,8 @@
             "dc:description": "List of float configuration settings selected by the float Principal Investigator (PI). Configuration parameters selected for a float are stored in the float 'meta.nc' file, under CONFIG_PARAMETER_NAME and LAUNCH_CONFIG_PARAMETER_NAME, which are populated by R18 prefLabel. Detailed information (incl. Template_Values explanation) is in the user manual (https://dx.doi.org/10.13155/29825), in the Reference Table 18 section.",
             "dc:title": "Argo configuration parameter names",
             "skos:prefLabel": "Argo configuration parameter names",
-            "owl:versionInfo": "11",
-            "dc:date": "2026-03-14 02:00:01.0",
+            "owl:versionInfo": "12",
+            "dc:date": "2026-05-16 03:00:01.0",
             "skos:altLabel": "CONFIG_PARAMETER_NAME",
             "dc:creator": "Argo Data Management Team",
             "dc:alternative": "CONFIG_PARAMETER_NAME",
